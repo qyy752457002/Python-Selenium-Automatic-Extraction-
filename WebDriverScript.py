@@ -48,6 +48,7 @@ def quick_scroll_to_bottom(driver):
             new_height = driver.execute_script(js)
 
     time.sleep(2)
+
     
 # slowly scroll down to the bottom of the page 
 def slow_scroll_to_bottom(driver):
